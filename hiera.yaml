@@ -1,0 +1,9 @@
+:backends:
+  - yaml
+:yaml:
+  :datadir: "/etc/puppet/hiera/hieradata"
+:hierarchy:
+  - "%{environment}/hosts/%{fqdn}"
+  - "%{environment}/modules/%{module_name}"
+  - "%{environment}/common"
+  - "common"
