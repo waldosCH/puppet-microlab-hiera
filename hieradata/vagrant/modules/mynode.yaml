@@ -1,2 +1,2 @@
 ---
----mynode::message: "hello from module"
+mynode::message: "hello from module"
