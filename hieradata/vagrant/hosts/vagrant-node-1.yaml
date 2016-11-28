@@ -3,4 +3,8 @@ mynode::config_hash:
   'helloworld':
     ensure: 'present'
     message: 'Hello world from hiera host'
-    port: 8080
+    listen_port: 8080
+  'helloworld2':
+    ensure: 'present'
+    message: 'Hello world 2 from hiera host'
+    listen_port: 8090
