@@ -3,7 +3,7 @@
 :yaml:
   :datadir: "/etc/puppet/hiera/hieradata"
 :hierarchy:
-  - "%{environment}/hosts/%{fqdn}"
+  - "%{environment}/hosts/%{hostname}"
   - "%{environment}/modules/%{module_name}"
   - "%{environment}/common"
   - "common"
