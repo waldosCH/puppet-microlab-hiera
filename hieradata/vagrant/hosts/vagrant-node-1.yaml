@@ -1,2 +1,6 @@
 ---
-mynode::message: 'hello world from hosts hiera'
+mynode::config_hash:
+  'helloworld':
+    ensure: 'present'
+    message: 'Hello world from hiera host'
+    port: 8080
